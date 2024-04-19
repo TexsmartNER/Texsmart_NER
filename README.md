@@ -10,7 +10,7 @@ For a given sentence, we will first split words by space (punctuation will be re
 
 **1. English Demo**
 
-```bash
+```text
 # example1
 text: This morning I met with Senators Inabo and Senior from Palau to discuss my role as Chair of the Public Works
 words: [{'word': 'This', 'hit': [0, 4]}, {'word': 'morning', 'hit': [5, 7]}, {'word': 'I', 'hit': [13, 1]}, {'word': 'met', 'hit': [15, 3]}, {'word': 'with', 'hit': [19, 4]}, {'word': 'Senators', 'hit': [24, 8]}, {'word': 'Inabo', 'hit': [33, 5]}, {'word': 'and', 'hit': [39, 3]}, {'word': 'Senior', 'hit': [43, 6]}, {'word': 'from', 'hit': [50, 4]}, {'word': 'Palau', 'hit': [55, 5]}, {'word': 'to', 'hit': [61, 2]}, {'word': 'discuss', 'hit': [64, 7]}, {'word': 'my', 'hit': [72, 2]}, {'word': 'role', 'hit': [75, 4]}, {'word': 'as', 'hit': [80, 2]}, {'word': 'Chair', 'hit': [83, 5]}, {'word': 'of', 'hit': [89, 2]}, {'word': 'the', 'hit': [92, 3]}, {'word': 'Public', 'hit': [96, 6]}, {'word': 'Works', 'hit': [103, 5]}]
@@ -32,7 +32,7 @@ entity predictions: [{'string': 'QT', 'hit': [9, 2], 'type': 'ORG'}, {'string': 
 
 **2. Chinese Demo**
 
-```bash
+```text
 # example1
 text: 浙江省金华的义乌市，我国最大的小商品交易基地。
 words: [{'word': '浙', 'hit': [0, 1]}, {'word': '江', 'hit': [1, 1]}, {'word': '省', 'hit': [2, 1]}, {'word': '金', 'hit': [3, 1]}, {'word': '华', 'hit': [4, 1]}, {'word': '的', 'hit': [5, 1]}, {'word': '义', 'hit': [6, 1]}, {'word': '乌', 'hit': [7, 1]}, {'word': '市', 'hit': [8, 1]}, {'word': '，', 'hit': [9, 1]}, {'word': '我', 'hit': [10, 1]}, {'word': '国', 'hit': [11, 1]}, {'word': '最', 'hit': [12, 1]}, {'word': '大', 'hit': [13, 1]}, {'word': '的', 'hit': [14, 1]}, {'word': '小', 'hit': [15, 1]}, {'word': '商', 'hit': [16, 1]}, {'word': '品', 'hit': [17, 1]}, {'word': '交', 'hit': [18, 1]}, {'word': '易', 'hit': [19, 1]}, {'word': '基', 'hit': [20, 1]}, {'word': '地', 'hit': [21, 1]}, {'word': '。', 'hit': [22, 1]}]
@@ -95,6 +95,6 @@ For English dataset, each token will be classified as one of the following class
 
 For Chinese dataset, each token will be classified as one of the following classes:
 
-```bash
+```text
 O, B-medicine, I-medicine, B-other, I-other, B-person_occupation, I-person_occupation, B-time_generic, I-time_generic, B-product_generic, I-product_generic, B-food_generic, I-food_generic, B-work_generic, I-work_generic, B-loc_other, I-loc_other, B-org_other, I-org_other, B-quantity_generic, I-quantity_generic, B-org_generic, I-org_generic, B-person_other, I-person_other, B-loc_generic, I-loc_generic, B-person_generic, I-person_generic, B-unmarked, I-unmarked, B-life_organism, I-life_organism, B-event_generic, I-event_generic
 ```

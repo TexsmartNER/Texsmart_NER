@@ -72,11 +72,11 @@ conda activate bert_ner
 
 对于英文，运行
 ```bash
-python3 demo.py --model_name_or_path checkpoints/ckpt_en --lang en
+python demo.py --model_name_or_path checkpoints/ckpt_en --lang en
 ```
 对于中文，运行
-```
-python3 demo.py --model_name_or_path checkpoints/ckpt_zh --lang zh
+```bash
+python demo.py --model_name_or_path checkpoints/ckpt_zh --lang zh
 ```
 
 ## 训练数据

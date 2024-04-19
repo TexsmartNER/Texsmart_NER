@@ -70,11 +70,11 @@ conda activate bert_ner
 
 For English, run
 ```bash
-python3 demo.py --model_name_or_path checkpoints/ckpt_en --lang en
+python demo.py --model_name_or_path checkpoints/ckpt_en --lang en
 ```
 For Chinese, run
-```
-python3 demo.py --model_name_or_path checkpoints/ckpt_zh --lang zh
+```bash
+python demo.py --model_name_or_path checkpoints/ckpt_zh --lang zh
 ```
 
 ## Training data

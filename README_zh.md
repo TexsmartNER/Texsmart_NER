@@ -102,6 +102,6 @@ O, B-medicine, I-medicine, B-other, I-other, B-person_occupation, I-person_occup
 ```
 
 ## 推荐链接
-TexSmart（腾讯文本理解系统）：https://texsmart.qq.com/zh
-Inferflow（大模型高效推理框架）：https://github.com/inferflow/inferflow
-Effidit（腾讯智能创作助手）：https://effidit.qq.com/
+- [TexSmart（腾讯文本理解系统）](https://texsmart.qq.com/zh)
+- [Inferflow（大模型高效推理框架）](https://github.com/inferflow/inferflow)
+- [Effidit（腾讯智能创作助手）](https://effidit.qq.com/)

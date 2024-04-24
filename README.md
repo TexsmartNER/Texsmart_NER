@@ -100,6 +100,6 @@ O, B-medicine, I-medicine, B-other, I-other, B-person_occupation, I-person_occup
 ```
 
 ## Recommended Links
-TexSmart（Tencent Text Understanding System）：https://texsmart.qq.com/zh 
-Inferflow (Efficient Inference Framework For Large language Model): https://github.com/inferflow/
-Effidit (Tencent Intelligent Creation Assistant): https://effidit.qq.com/
+- [TexSmart (Tencent Text Understanding System)](https://texsmart.qq.com/zh)
+- [Inferflow (Efficient Inference Framework For Large language Model)](https://github.com/inferflow/)
+- [Effidit (Tencent Intelligent Creation Assistant)](https://effidit.qq.com/)

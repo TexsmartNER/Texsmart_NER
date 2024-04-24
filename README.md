@@ -98,3 +98,8 @@ For Chinese dataset, each token will be classified as one of the following class
 ```text
 O, B-medicine, I-medicine, B-other, I-other, B-person_occupation, I-person_occupation, B-time_generic, I-time_generic, B-product_generic, I-product_generic, B-food_generic, I-food_generic, B-work_generic, I-work_generic, B-loc_other, I-loc_other, B-org_other, I-org_other, B-quantity_generic, I-quantity_generic, B-org_generic, I-org_generic, B-person_other, I-person_other, B-loc_generic, I-loc_generic, B-person_generic, I-person_generic, B-unmarked, I-unmarked, B-life_organism, I-life_organism, B-event_generic, I-event_generic
 ```
+
+## Recommended Links
+TexSmart（Tencent Text Understanding System）：https://texsmart.qq.com/zh 
+Inferflow (Efficient Inference Framework For Large language Model): https://github.com/inferflow/
+Effidit (Tencent Intelligent Creation Assistant): https://effidit.qq.com/
